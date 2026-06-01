@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eric Mwuara — Personal Training | Philadelphia</title>
+  <meta name="description" content="Personal training in Philadelphia. Build strength, drop body fat, and move like an athlete. Coaching built around your goals — train with Eric Mwuara." />
+  <meta name="theme-color" content="#0a0a0b" />
+
+  <meta property="og:title" content="Eric Mwuara — Personal Training | Philadelphia" />
+  <meta property="og:description" content="Build strength. Move like an athlete. Train with Eric in Philadelphia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ericmfit.com/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- progress bar -->
+  <div class="progress" id="progress"></div>
+
+  <!-- ===================== TOP BAR ===================== -->
+  <header class="topbar" id="topbar">
+    <a href="#top" class="brand">
+      <span class="brand__mark">EM</span>
+      <span class="brand__name">ERIC<span class="brand__accent">FIT</span></span>
+    </a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Training</a>
+      <a href="#results">Results</a>
+      <a href="#contact" class="topnav__cta">Start Now</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grain"></div>
+        <div class="hero__glow"></div>
+      </div>
+      <!-- giant scrolling marquee behind hero text -->
+      <div class="marquee" aria-hidden="true">
+        <span>STRENGTH · DISCIPLINE · RESULTS · STRENGTH · DISCIPLINE · RESULTS ·&nbsp;</span>
+        <span>STRENGTH · DISCIPLINE · RESULTS · STRENGTH · DISCIPLINE · RESULTS ·&nbsp;</span>
+      </div>
+      <div class="hero__inner">
+        <p class="eyebrow reveal">Personal Training · Philadelphia</p>
+        <h1 class="hero__title">
+          <span class="line reveal">BUILD THE</span>
+          <span class="line reveal accent">BODY YOU</span>
+          <span class="line reveal">EARN.</span>
+        </h1>
+        <p class="hero__lede reveal">
+          No shortcuts. No gimmicks. Just smart programming, real accountability,
+          and the work that gets you stronger every single week. Train with Eric.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#contact" class="btn btn--primary">Start Training</a>
+          <a href="tel:+19735578516" class="btn btn--ghost">Call (973) 557-8516</a>
+        </div>
+      </div>
+      <div class="hero__stats">
+        <div class="stat reveal"><span class="stat__num" data-count="100">0</span><span class="stat__sym">%</span><span class="stat__k">Custom plans</span></div>
+        <div class="stat reveal"><span class="stat__num" data-count="1">0</span><span class="stat__sym">:1</span><span class="stat__k">Focused coaching</span></div>
+        <div class="stat reveal"><span class="stat__num" data-count="365">0</span><span class="stat__sym"></span><span class="stat__k">Days of support</span></div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="about__grid">
+        <div class="about__photo reveal">
+          <img class="about__img" src="eric_pic.jpeg" alt="Eric Mwuara, personal trainer in Philadelphia" loading="lazy" />
+          <div class="about__badge">PHILLY<br />BASED</div>
+        </div>
+        <div class="about__body">
+          <p class="eyebrow reveal">Meet Your Coach</p>
+          <h2 class="reveal">I don't sell motivation.<br /><span class="accent">I build it.</span></h2>
+          <p class="reveal">
+            I'm Eric Mwuara, a Philadelphia-based personal trainer. I got into this
+            because I know what it feels like to want change and not know where to
+            start — so I make the path obvious and the work doable.
+          </p>
+          <p class="reveal">
+            Right now I'm deep in my training education, stacking certifications and
+            studying the science so every rep you do is backed by a reason. You bring
+            the effort; I'll bring the plan, the form checks, and the accountability
+            that keeps you showing up.
+          </p>
+          <!-- TODO: add real credentials/certs (NASM/ACE/CPT, etc.), specialties,
+               and Eric's personal story / athletic background -->
+          <ul class="tags reveal">
+            <li>Strength</li><li>Fat Loss</li><li>Athletic Conditioning</li>
+            <li>Mobility</li><li>Habit Coaching</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section services" id="services">
+      <div class="section__head">
+        <p class="eyebrow reveal">Train With Me</p>
+        <h2 class="reveal">Pick your lane. <span class="accent">Then attack it.</span></h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card__num">01</span>
+          <h3>1-on-1 Personal Training</h3>
+          <p>Fully customized sessions built around your goals, your schedule, and your body. Every rep coached, every week progressed.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">02</span>
+          <h3>Strength &amp; Muscle</h3>
+          <p>Progressive programming to add real, usable strength and lean muscle — barbell, dumbbell, and bodyweight done right.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">03</span>
+          <h3>Fat Loss &amp; Conditioning</h3>
+          <p>Sustainable cuts, no crash diets. Train hard, recover smart, and build a body that performs as good as it looks.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">04</span>
+          <h3>Athletic Performance</h3>
+          <p>Speed, power, and resilience for sport. Train movements, not just muscles, and show up to game day ready.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">05</span>
+          <h3>Custom Programming</h3>
+          <p>Can't train in person? Get a personalized program with video guidance, check-ins, and adjustments as you progress.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__num">06</span>
+          <h3>Accountability Coaching</h3>
+          <p>The part most people skip. Habits, nutrition basics, and consistent check-ins that turn effort into results.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== RESULTS / REVIEWS ===================== -->
+    <section class="section results" id="results">
+      <div class="section__head">
+        <p class="eyebrow reveal">The Proof</p>
+        <h2 class="reveal">Real people. <span class="accent">Real work.</span></h2>
+      </div>
+      <!-- TODO: replace with real client testimonials / before-after stats -->
+      <div class="quotes">
+        <figure class="quote reveal">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Eric meets you where you're at and pushes you past it. I'm stronger than I've ever been and actually look forward to training now."</blockquote>
+          <figcaption>— Marcus D.</figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Down 18 pounds and lifting heavier than I thought possible. He keeps it real and keeps me accountable. Worth every session."</blockquote>
+          <figcaption>— Tasha W.</figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The form coaching alone changed everything. No more nagging back pain and my numbers keep climbing. Best decision I made this year."</blockquote>
+          <figcaption>— Devon K.</figcaption>
+        </figure>
+      </div>
+      <p class="results__cta reveal">Trained with me? <a href="#contact">Drop a review →</a></p>
+    </section>
+
+    <!-- ===================== CTA BANNER ===================== -->
+    <section class="cta-banner">
+      <div class="cta-banner__inner reveal">
+        <h2>Your first session is the hardest.<br /><span class="accent">Let's get it out of the way.</span></h2>
+        <a href="#contact" class="btn btn--primary btn--lg">Claim Your Spot</a>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="section__head">
+        <p class="eyebrow reveal">Let's Go</p>
+        <h2 class="reveal">Ready to start?</h2>
+        <p class="section__sub reveal">Call or text to set up your first session or ask about programs. Philly and surrounding areas.</p>
+      </div>
+      <div class="contact__grid">
+        <a class="contact__item reveal" href="tel:+19735578516">
+          <span class="contact__k">Call / Text</span>
+          <span class="contact__v">(973) 557-8516</span>
+        </a>
+        <!-- TODO: swap to real inbox or set forwarding for train@ericmfit.com -->
+        <a class="contact__item reveal" href="mailto:train@ericmfit.com">
+          <span class="contact__k">Email</span>
+          <span class="contact__v">train@ericmfit.com</span>
+        </a>
+        <div class="contact__item reveal">
+          <span class="contact__k">Based In</span>
+          <span class="contact__v">Philadelphia, PA</span>
+        </div>
+        <!-- TODO: add real Instagram / social handle -->
+        <a class="contact__item reveal" href="#" data-todo="instagram">
+          <span class="contact__k">Follow</span>
+          <span class="contact__v">@ericmfit</span>
+        </a>
+      </div>
+      <div class="contact__actions reveal">
+        <a href="tel:+19735578516" class="btn btn--primary">Call (973) 557-8516</a>
+        <a href="mailto:train@ericmfit.com?subject=Training%20Inquiry" class="btn btn--ghost">Email Eric</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="brand brand--footer"><span class="brand__mark">EM</span> ERIC<span class="brand__accent">FIT</span></span>
+      <p class="footer__meta">Personal Training · Philadelphia · <a href="tel:+19735578516">(973) 557-8516</a></p>
+      <p class="footer__fine">© <span id="year"></span> Eric Mwuara. Train hard. Stay consistent.</p>
+    </div>
+  </footer>
+
+  <!-- mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#services">Training</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Start Now</a>
+    <a href="tel:+19735578516" class="mobile-menu__call">(973) 557-8516</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
